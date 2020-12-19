@@ -1,0 +1,53 @@
+#container {
+    background-image: url(assets/background01.png);
+    width: 270px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+}
+
+#janela {
+    background-color: black;
+    width: 100%;
+    height: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.texto-janela {
+    color: white;
+    font-size: 7px;
+    margin: 1px 2px;
+}
+
+#wifi {
+    margin: 1px 0px;
+}
+
+#tela {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+#texto-tela {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+#link {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+#link:visited {
+    color: white;
+}
+
+#tela-bloqueio {
+    width: 100%;
+    height: 200px;
+}
